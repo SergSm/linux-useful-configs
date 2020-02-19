@@ -1,0 +1,23 @@
+
+
+set from = "email@server.com"
+set realname = "name"
+
+set smtp_url  = "smtp://email@server.com@smtp.server.com:587/"
+set smtp_pass = "PASSWORD"
+set imap_user = "email@server.com"
+set imap_pass = "PASSWORD"
+
+set folder = "imaps://server.mail.com:993"
+set spoolfile = "+INBOX"
+
+set header_cache =  "~/.mutt/cache/headers"
+set message_cachedir = "~/.mutt/cache/bodies"
+set certificate_file = "~/.mutt/certificates"
+
+set mail_check = 30
+set move = no
+set imap_keepalive = 900
+set sort = threads
+set editor = "nano"
+
